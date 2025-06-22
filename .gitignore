@@ -1,0 +1,50 @@
+# Database specific files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# PostgreSQL
+*.backup
+*.dump
+*.sql~
+
+# MySQL
+*.mysql
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Backup files
+backup/
+backups/
+*.bak
+
+# Migration locks
+*.lock
+
+# Docker volumes
+docker-data/
+postgres-data/
